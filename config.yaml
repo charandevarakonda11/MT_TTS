@@ -1,0 +1,15 @@
+save_data: "/content/vocab"  
+
+src_vocab: "/content/vocab/src_vocab.txt"
+tgt_vocab: "/content/vocab/tgt_vocab.txt"
+
+data:
+    corpus_1:
+        path_src: "/content/train_source.txt"
+        path_tgt: "/content/train_target.txt"
+    valid:
+        path_src: "/content/valid_source.txt"
+        path_tgt: "/content/valid_target.txt"
+
+src_seq_length: 50
+tgt_seq_length: 50

@@ -1,0 +1,19 @@
+save_model: "/content/model"
+save_checkpoint_steps: 2000
+train_steps: 20000
+valid_steps: 100
+world_size: 1
+gpu_ranks: [0]
+
+data:
+    corpus_1:
+        path_src: "/content/train_source.txt"
+        path_tgt: "/content/train_target.txt"
+    valid:
+        path_src: "/content/valid_source.txt"
+        path_tgt: "/content/valid_target.txt"
+
+src_vocab: "/content/vocab/src_vocab.txt"
+tgt_vocab: "/content/vocab/tgt_vocab.txt"
+
+report_every: 100
